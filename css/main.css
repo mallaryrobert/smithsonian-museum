@@ -296,7 +296,7 @@ footer .fa-solid {
     font-size: 2rem;
     margin-top: 2rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 0;    
 }
 footer .fa-solid:hover{
     color: #51534B !important;

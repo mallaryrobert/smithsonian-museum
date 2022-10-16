@@ -171,8 +171,6 @@ border-bottom: 4px solid #D14900;
 display: inline-block;
 
 
-
-
 }
 h3 {
     font-family: canada-type-gibson, sans-serif;
@@ -183,7 +181,6 @@ padding-top: 2rem;
 border-bottom: 4px solid #D14900;
 display: inline-block;
 }
-
 
 
 .featured {
@@ -199,11 +196,7 @@ display: inline-block;
     font-size: 5rem;
     padding-bottom: 1rem;
 
-
-
 }
-
-
 
 .events .fa-solid{
     margin-top: -1.5rem;
@@ -219,7 +212,6 @@ display: inline-block;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
-
 
 }
 
@@ -291,8 +283,6 @@ footer a.button {
 }
 
 
-
-
 footer {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 100;
@@ -306,8 +296,6 @@ footer ul{
     font-size: 2rem;
     color:#098094;
 }
-
-
 
 
 footer img{

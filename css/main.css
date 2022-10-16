@@ -5,7 +5,7 @@ header{
     font-style: normal;
     color:white;
     position: absolute;
-	z-index: 1;
+	z-index: 12;
 	width: 100%;
     top: 0;
     left: 0;
@@ -88,24 +88,29 @@ header .menu a{
     header button {
       cursor: pointer;
     }
+
+    header button:hover{
+        background: transparent;
+    }
     header button.show-for-small-only {
       position: relative;
-      z-index: 15;
-      color: #098094 !important;
-      text-align: right;
-      margin-top: 3rem;
+      z-index: 12;
+      margin-right: 2rem;
       font-size: 2rem;
-      margin-left: 8rem;
 
 
 
+    }
 
+    header button i{
+        color: #098094; 
     }
     header button.show-for-small-only.btnToggle {
       color: #ffffff;
       text-align:right;
       margin-top: 3rem;
-      margin-left: 8rem;
+      margin-left: 10rem;
+      font-size: 2rem;
       color: #098094 !important;
 
     }
@@ -283,25 +288,12 @@ footer a.button {
     background-color: white !important;
     border-color: #D14900;
     color: #D14900;
-    margin-top: 1rem;
     margin-left: 1rem;
-    margin-bottom: 5rem;
+    
 }
 
 
-footer .fa-solid {
-    color: #098094;
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    position: absolute;
-}
 
-footer .fa-solid:hover{
-    color: #51534B !important;
-
-}
 
 footer {
     font-family: canada-type-gibson, sans-serif;
@@ -309,15 +301,20 @@ footer {
     font-style: italic;
     text-align: left;
     padding-top: 4rem;
-    padding-left: 1rem;
 
 }
 
+footer ul{
+    font-size: 2rem;
+    color:#098094;
+}
+
+
+
 
 footer img{
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 30%;
+width: 30%;
+padding-bottom: 1rem;
 }
 
 

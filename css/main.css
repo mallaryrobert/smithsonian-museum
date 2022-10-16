@@ -255,7 +255,6 @@ display: inline-block;
 
 .news img{
     width: 40%;
-    border-radius: 50%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 2rem;
@@ -285,19 +284,20 @@ footer a.button {
     border-color: #D14900;
     color: #D14900;
     margin-top: 1rem;
-    margin-left: 5rem;
-    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
 }
 
 
 footer .fa-solid {
-    text-align:center;
     color: #098094;
     font-size: 2rem;
-    margin-top: 2rem;
     margin-left: 2rem;
-    margin-bottom: 0;    
+    margin-top: 1rem;
+    margin-bottom: 0;
+    position: absolute;
 }
+
 footer .fa-solid:hover{
     color: #51534B !important;
 
@@ -310,7 +310,6 @@ footer {
     text-align: left;
     padding-top: 4rem;
     padding-left: 1rem;
-    margin-bottom: 1.5rem;
 
 }
 

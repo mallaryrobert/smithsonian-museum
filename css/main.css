@@ -97,13 +97,20 @@ header .menu a{
       z-index: 12;
       margin-right: 2rem;
       font-size: 2rem;
+      border-radius: 50%;
+      height: 3rem;
+      width: 3rem;
+      background-color: #D14900;
 
 
 
     }
 
     header button i{
-        color: #098094; 
+        color: white; 
+        padding-right: .5rem;
+        padding-left: .5rem;
+        
     }
     header button.show-for-small-only.btnToggle {
       color: #ffffff;
@@ -117,6 +124,10 @@ header .menu a{
 
 .orbit-bullets {
     color: #098094 !important;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: #51534B;
+    
 }
 
 .banner{
@@ -127,8 +138,7 @@ header .menu a{
     font-size: 2rem;
     text-align: left;
     color:white;
-    padding-left: 1rem;
-    padding-top: 0;
+    padding: 2rem;
 }
 
 
@@ -180,6 +190,7 @@ text-align: left;
 padding-top: 2rem;
 border-bottom: 4px solid #D14900;
 display: inline-block;
+padding-bottom: .5rem;
 }
 
 
@@ -252,8 +263,14 @@ display: inline-block;
     width: 40%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-right: 2rem;
    
+}
+
+.news img.show-for-small-only{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }
 .news a.button {
     font-family: canada-type-gibson, sans-serif;
@@ -286,7 +303,7 @@ footer a.button {
 footer {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 100;
-    font-style: italic;
+    font-style: normal;
     text-align: left;
     padding-top: 4rem;
 
@@ -295,6 +312,14 @@ footer {
 footer ul{
     font-size: 2rem;
     color:#098094;
+}
+
+.menu a i {
+    font-size: 2rem;
+    color:#098094;
+
+
+
 }
 
 

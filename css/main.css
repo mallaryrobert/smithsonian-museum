@@ -295,7 +295,8 @@ footer a.button {
     background-color: white !important;
     border-color: #D14900;
     color: #D14900;
-    margin-left: 1rem;
+    margin-left: .5rem;
+   
     
 }
 
@@ -305,7 +306,7 @@ footer {
     font-weight: 100;
     font-style: normal;
     text-align: left;
-    padding-top: 4rem;
+    padding: 3rem;
 
 }
 
@@ -326,6 +327,9 @@ footer ul{
 footer img{
 width: 30%;
 padding-bottom: 1rem;
+}
+footer img.show-for-small-only {
+    width: 50%;
 }
 
 

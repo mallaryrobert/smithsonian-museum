@@ -13,7 +13,7 @@ header{
 
 }
 
-/*.start {
+.start {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -23,9 +23,9 @@ header{
     right: 5rem;
     z-index: 11;
 
-}*/
+}
 
-@media screen and (min-width: 60em){
+/*@media screen and (min-width: 60em){
 
     .start{
     font-family: canada-type-gibson, sans-serif;
@@ -39,9 +39,9 @@ header{
 
     }
 
-} 
+} */
 
-@media screen and (min-width: 20em){
+/*@media screen and (min-width: 20em){
 
     .start{
         display:none;
@@ -57,7 +57,7 @@ header{
 
     }
 
-} 
+} */
 
 
 .start .fa-solid {
